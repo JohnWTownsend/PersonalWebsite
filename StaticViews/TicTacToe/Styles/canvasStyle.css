@@ -1,0 +1,30 @@
+﻿#GameBoard{
+    position: relative;
+    /* box-shadow:rgb(235, 10, 103) 3px 0px 10px, rgb(235, 10, 103) -3px 0px 10px; */
+}
+.boardRow{
+    clear:left;
+    margin:0px 2%;
+}
+.boardElem{
+    float:left;
+    margin: 1% 1%;
+    background: rgb(52,52,52);
+    box-shadow:yellow 3px 0px 10px, yellow -3px 0px 10px;
+}
+
+#XS, #OS {
+    position: relative;
+    background-color: rgb(52,52,52);
+}
+#XS{
+    box-shadow:blue 3px 0px 10px,blue -3px 0px 10px; 
+}
+#OS{
+    box-shadow:rgb(235, 10, 103) 3px 0px 10px, rgb(235, 10, 103) -3px 0px 10px; 
+}
+#XSdiv{
+    float:left;
+}
+
+button{float:none;}

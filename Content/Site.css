@@ -1,0 +1,59 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: linear-gradient(110deg, yellow 2%, red 20%, blue);
+    color:white;
+    height:100%;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#mainNav {
+}
+
+#viewPieChart{
+    float:left;
+}
+
+#MasterLink{
+    color:yellow;
+    font-size: 2em;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    #MasterLink:hover{
+        color:#c2c200;
+    }
+
+.navListItem {
+    color: indianred !important;
+    font-style: italic !important;
+    font-weight:300 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+    .navListItem:hover{
+        color: #9d4747 !important;
+    }

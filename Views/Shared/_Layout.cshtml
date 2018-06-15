@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title John Townsend</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header col-md-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                @Html.ActionLink("JTE", "Index", "Home", new { area = "" },new { @class = "navbar-brand", @id = "MasterLink" })
+
+            </div>
+            <div class="navbar-collapse collapse col-md-9">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navListItem" })</li>
+                    <li>@Html.ActionLink("About", "Index", "About", new { area = "" }, new { @class = "navListItem" })</li>
+                    <li style="margin-right:50px;">@Html.ActionLink("Projects", "Index", "Projects", new { area = "" }, new { @class = "navListItem" })</li>
+                    <li><div id="clock"></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year John Townsend</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/utils")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

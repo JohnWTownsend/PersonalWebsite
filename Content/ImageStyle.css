@@ -1,0 +1,29 @@
+﻿.imgLink {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: rgb(81, 62, 62) 5px 5px 10px;
+    margin: 10px;
+}
+
+.aboutImg{
+    float:left;
+    max-width:5%;
+    height:auto;
+    margin:10px;
+}
+
+.projectsImg{
+    float: left;
+}
+.lastFloat{
+    float:none;
+}
+
+#aboutLinkList{
+    list-style:none;
+}
+
+#projectsLinkList{
+    list-style: none;
+}
