@@ -10,7 +10,7 @@
 
 body{
     height: 100vh;
-    background-color: var(--jwt-red)  !important;
+    background: linear-gradient(to right, var(--jwt-black)40%, var(--jwt-red), var(--jwt-purple)) !important;
 }
 
 nav button.navbar-toggler span{
@@ -37,7 +37,7 @@ nav button.navbar-toggler span{
 #main-nav{
     background: linear-gradient(to right, var(--jwt-black) 40%,var(--jwt-red), var(--jwt-purple));
     color: var(--jwt-gold);
-    box-shadow: var(--jwt-gold) 0px 0px 10px;
+    box-shadow: black 0px 0px 10px;
 }
     #main-nav a{
         color: var(--jwt-gold);

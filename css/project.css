@@ -1,0 +1,8 @@
+#project-container{
+    width: 100%;
+    height: 80%;
+}
+#project-container iframe{
+    width: 100%;
+    height: 100%;
+}
