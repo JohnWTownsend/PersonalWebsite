@@ -1,0 +1,41 @@
+#main-body{
+    display: grid;
+    grid-template-rows: .1fr .2fr;
+    grid-template-areas: 
+    "header"
+    "contact-info"
+}
+
+#header{
+    grid-area: header;
+}
+
+#contact-info-photo{
+    margin: 10px;
+}
+
+    #contact-info-photo img{
+        height: 20vh;
+        border-radius: 100%;
+    }
+
+#contact-info{
+    grid-area: contact-info;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #contact-info-text{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    #contact-info-text span{
+        margin: 5px;
+    }
+    #contact-info-text span svg{
+        fill: var(--jwt-gold);
+        height: 32px;
+        width: 32px;
+    }
+
