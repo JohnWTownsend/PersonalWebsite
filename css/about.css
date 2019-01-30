@@ -12,10 +12,13 @@
         color: var(--jwt-red);
     }
 
+    #about-me #summary-photo{
+        margin: 15px;
+    }
     #about-me #summary-photo img{
-        height: 25vh;
+        width: 20vh;
         border-radius: 100%;
-        box-shadow: var(--jwt-red) 0px 0px 10px;
+        box-shadow: var(--jwt-purple) 5px 5px 10px,var(--jwt-red) -5px -5px 10px;
     }
 
 #tech-skills{
@@ -50,6 +53,12 @@
     }
 
     .tech-skill .tech-skill-image svg{
-        height: 20vh;
-
+        width: 20vw;
+        max-width: 150px;
     }
+
+@media screen and (max-width: 800px){
+    #about-me{
+        flex-direction: column-reverse;
+    }
+}
