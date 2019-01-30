@@ -20,10 +20,9 @@ nav button.navbar-toggler span{
 #main-body{
     background-color: var(--jwt-black);
     color: var(--jwt-gold);
-
+    position:relative;
     box-shadow: black 0px 0px 100px;
-    height: 90%;
-    margin: 0% 2%;
+    margin: 0% 10%;
     padding: 0% 2%;
 }
 
@@ -48,12 +47,10 @@ nav button.navbar-toggler span{
     }
 
 #footer{
-    position:absolute;
     border-top: 2px var(--jwt-black) inset ;
+    background: var(--jwt-black);
     font-size: .7em;
     color: var(--jwt-gold);
-    width: 90%;
+    width: 100%;
     text-align: right;
-    bottom: 2%;
-    margin: 1%;
 }

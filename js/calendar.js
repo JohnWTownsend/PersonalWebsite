@@ -20,13 +20,5 @@ function updateCalendarSize(){
     }
 
     calendar.setAttribute("height", `${height-(height*0.3)}px`);
-    calendar.setAttribute("width", `${width-(width*0.1)}px`);
-}
-
-function show(element){
-    element.setAttribute("style", "display: inherit");
-}
-
-function hide(element){
-    element.setAttribute("style", "display: none");
+    calendar.setAttribute("width", `${width-(width*0.25)}px`);
 }

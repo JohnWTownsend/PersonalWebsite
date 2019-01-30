@@ -1,0 +1,55 @@
+#about-me{
+    display: flex;
+    align-items: center;
+}
+
+#about-me #summary{
+    flex:1;
+    text-indent: 5%;
+}
+
+    #about-me #summary a{
+        color: var(--jwt-red);
+    }
+
+    #about-me #summary-photo img{
+        height: 25vh;
+        border-radius: 100%;
+        box-shadow: var(--jwt-red) 0px 0px 10px;
+    }
+
+#tech-skills{
+    display: flex;
+    flex-direction: column;
+}
+
+    .tech-skill{
+        display: flex;
+        align-items: space-between;
+        border: 2px solid var(--jwt-gold);
+        margin: 10px;
+        padding: 10px;
+    }
+    .tech-skill .tech-skill-text{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        flex: 2
+    }
+
+    .tech-skill .tech-skill-text .tech-skill-name{
+        font-weight: bold;
+        font-size:1.3em;
+    }
+
+    .tech-skill .tech-skill-image{
+        flex:1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .tech-skill .tech-skill-image svg{
+        height: 20vh;
+
+    }
