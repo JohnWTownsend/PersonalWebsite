@@ -17,6 +17,18 @@ nav button.navbar-toggler span{
     color: var(--jwt-white);
 }
 
+#home-link{
+    margin: 0px 10px 0px 7%;
+}
+
+#site-logo{
+    height: 5vh;
+}
+
+#site-logo:hover{
+    opacity: 0.8;
+}
+
 #main-body{
     background-color: var(--jwt-black);
     color: var(--jwt-gold);
