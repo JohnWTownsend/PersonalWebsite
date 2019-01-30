@@ -23,7 +23,8 @@ nav button.navbar-toggler span{
     position:relative;
     box-shadow: black 0px 0px 100px;
     margin: 0% 10%;
-    padding: 0% 2%;
+    padding: 0% 2% 5% 2%;
+    min-height: 90vh;
 }
 
 #header{
@@ -51,6 +52,10 @@ nav button.navbar-toggler span{
     background: var(--jwt-black);
     font-size: .7em;
     color: var(--jwt-gold);
-    width: 100%;
+    width: 90%;
+    margin: 2% 5%;
     text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
