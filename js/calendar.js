@@ -12,13 +12,10 @@ function updateCalendarSize(){
     let calendar = document.querySelector("#googleCalendar");
     let src = calendar.getAttribute("src");
 
-    if (width < 600 && src.search("WEEK")){
-        calendar.setAttribute("src", src.replace("WEEK","AGENDA"));
+    if (width < 800){
+        calendar.setAttribute("width", `${width-(width*0.25)}px`);
     }
-    else if (width >= 600 && src.search("AGENDA")){
-        calendar.setAttribute("src", src.replace("AGENDA","WEEK"));
+    else{
+        calendar.setAttribute("width", `${width-(width*0.45)}px`);
     }
-
-    calendar.setAttribute("height", `${height-(height*0.3)}px`);
-    calendar.setAttribute("width", `${width-(width*0.25)}px`);
 }

@@ -1,20 +1,23 @@
 
 *{
     --jwt-gold: #ffb24e;
-    --jwt-red: #f5452e;
-    --jwt-black: #313131;
+    --jwt-red: #f24433;
+    --jwt-black: #1f1e1e;
+    --jwt-light-black: #242424;
+    --jwt-gray: #aaaaaa;
     --jwt-white: rgb(230,230,230);
     --jwt-purple: rgb(168, 39, 180);
+    --jwt-magenta: #d43867;
 
 }
 
 body{
     height: 100vh;
-    background: linear-gradient(to right, var(--jwt-black)40%, var(--jwt-red), var(--jwt-purple)) !important;
+    background: var(--jwt-gold) !important;
 }
 
 nav button.navbar-toggler span{
-    color: var(--jwt-white);
+    color: var(--jwt-black) !important;
 }
 
 #home-link{
@@ -36,7 +39,7 @@ nav button.navbar-toggler span{
     color: var(--jwt-gold);
     position:relative;
     box-shadow: black 0px 0px 100px;
-    margin: 0% 10%;
+    margin: 0% 20%;
     padding: 0% 2% 5% 2%;
     min-height: 90vh;
 }
@@ -49,12 +52,12 @@ nav button.navbar-toggler span{
 }
 
 #main-nav{
-    background: linear-gradient(45deg, var(--jwt-black) 40%,var(--jwt-red), var(--jwt-purple));
-    color: var(--jwt-gold);
+    background: var(--jwt-gold);
+    color: var(--jwt-black);
     box-shadow: black 0px 0px 10px;
 }
     #main-nav a{
-        color: var(--jwt-gold);
+        color: var(--jwt-black);
     }
 
     #main-nav li{
@@ -62,7 +65,7 @@ nav button.navbar-toggler span{
     }
 
 #footer{
-    border-top: 2px var(--jwt-black) inset ;
+    border-top: 1px solid var(--jwt-gold) ;
     background: var(--jwt-black);
     font-size: .7em;
     color: var(--jwt-gold);
@@ -72,4 +75,13 @@ nav button.navbar-toggler span{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+@media screen and (max-width: 800px){
+    .nav li{
+        text-indent: 10%;
+    }
+    #main-body{
+        margin: 0% 10%;
+    }
 }

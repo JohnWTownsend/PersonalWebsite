@@ -17,7 +17,7 @@
     #contact-info-photo img{
         height: 20vh;
         border-radius: 100%;
-        box-shadow: var(--jwt-red) -5px -5px 10px, var(--jwt-purple) 5px 5px 10px;
+        border: 3px solid var(--jwt-gold);
     }
 
 #contact-info{
